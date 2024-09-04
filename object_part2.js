@@ -52,7 +52,27 @@ console.log(Object.values(userinfo));
 
 console.log(Object.entries(userinfo));
 
+// ***********************************************--------END--------*************************************
 
+// Object Destructring in object and study about API and JSON 
+
+
+
+const Course =
+{
+  CourseName:"JS VIDEO",
+  price: "123",
+  teacher:"hitesh"
+
+}
+
+ console.log(Course);
+
+ const {price } = Course;
+
+ console.log(price);
+ 
+ 
 
 
 
