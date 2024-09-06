@@ -54,4 +54,61 @@ function printMessage(username = "tushar"){
 printMessage("TEJAS");
 
 
+// *************************************------------END-----------***************************************
+
+// Function Part 2 accesing the function using object and array 
+
+
+function PrintMessage(){
+ console.log("This is Tushar");
+  
+}
+
+console.log(printMessage("AFA"))
+
+
+// Using rest Operator in the function and rest operator also called as Spread Operator Its Totally depend on the sitauion where we use the particular Operator 
+function calculateCart(...numbers){
+   return numbers;
+}
+
+console.log(calculateCart(56,65,776,));
+
+
+// Accessing the object using function 
+
+// Create a Object 
+
+ const movies = {
+  Name:"Breaking Bad",
+  Director:"KK Misra",
+  prices:"2000cr"
+ }
+
+ function getdataofMovies(getinfomovies){
+   console.log(`This is name of the movie ${movies.Name} & This is price of movie${movies.prices}`);
+   
+ }
+
+//  Execute the Function 
+
+console.log(getdataofMovies(movies.Director))
+
+
+// Accessing the Array using function 
+
+// Create a Array 
+
+const fruit = ['mango','banana','apple','pineapple'];
+
+// Creating a Function 
+// accessing the array of index 2 
+function GetINFO(getindexof)
+{
+  console.log(`the index of 2 is  ${fruit[2]}`);
+  
+}
+
+
+console.log(GetINFO())
 
