@@ -26,6 +26,7 @@ else
     
 }
 
+
 // Check the object is empty or not
 
  const obj = {}
@@ -50,6 +51,9 @@ console.log(val1);
 const Val1 = null ?? 20;
 
 console.log(val1);
+
+
+
 
 
 

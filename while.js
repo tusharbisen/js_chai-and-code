@@ -21,3 +21,15 @@ while(arr<=10)
     arr =arr + 1;
     
 }
+
+
+// Creation of do while loop 
+
+let i = 1
+do {
+
+    console.log(`The value of I is ${i}`);
+    i= i+1
+    
+    
+} while (i<=10);
