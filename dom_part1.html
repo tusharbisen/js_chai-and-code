@@ -1,4 +1,6 @@
-<!-- In this File we will study about the document object  how to acces the parent to child and vice versa -->
+<!-- To Study About Document Object Model  -->
+
+
 
 <!DOCTYPE html>
 <html lang="en">
@@ -8,22 +10,35 @@
     <title>Document Object Model </title>
 </head>
 <body>
-    <div class="parent">
-        <div class="day">Moday</div>
-        <div class="day">Tuesday</div>
-        <div class="day">Wednesday</div>
-        <div class="day">Thurday</div>
-    </div> 
+    
+<div class="parent">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thurday</div>
+</div>
+
+<!-- Add Javasctipt File Using Script Tag -->
+
+<script>
+
+    // Target The Element using Query Selector
+
+const Parent = document.querySelector('.parent');
+
+console.log(Parent);
+// const Parent2 = Parent.firstElementChild;
+// console.log(Parent2);
+const Parent2 = Parent.lastElementChild;
+console.log(Parent2);
+
+
+
+ 
+
+
+
+
+</script>
 </body>
-
-<!--create a js file and add the code in thsi -->
-
- <script>
-
-    // selecth the element 
-
- const parent = document.querySelector('parent');
- console.log(parent);
-
- </script>
 </html>
