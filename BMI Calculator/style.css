@@ -1,0 +1,14 @@
+.container,h1{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    
+     
+
+}
+form,label{
+    font-size: 20px;
+}
